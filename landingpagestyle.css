@@ -1,7 +1,30 @@
-/*       <h1 id="omoss">Om oss</h1>   */
+#title {
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 10000;
+    text-align: center;
+    color: rgb(249, 248, 248);
+    margin-top: auto;
+    
+}
 
 
+#bildennummer1 {
+    background-image: url("bilder/delikatess/kaffe.jpg"); 
+    background-size: cover;  
+    background-position: center; 
+    background-attachment: fixed; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    opacity: 1; 
+    transition: opacity 1s ease-in-out; 
+}
 
+body {
+    background-color: rgb(109, 51, 51);
+}
 
 
 /*         <img id="bildennummer1" src="bilder/delikatess/kaffe.jpg"> */
