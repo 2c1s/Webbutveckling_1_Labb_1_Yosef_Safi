@@ -10,7 +10,7 @@
 
 
 #bildennummer1 {
-    background-image: url("bilder/delikatess/kaffe.jpg"); 
+    background-image: url("bilder/bakgrund/denuppe.png"); 
     background-size: cover;  
     background-position: center; 
     background-attachment: fixed; 
@@ -22,9 +22,25 @@
     transition: opacity 1s ease-in-out; 
 }
 
-body {
-    background-color: rgb(109, 51, 51);
-}
+
+
+
+
+.delikatess {
+
+    display: none;
+    width: 300px;
+    height: auto;
+    margin: 20px auto;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    
+    }
+    
+    .delikatess.show {
+        display: block;
+        opacity: 1;
+    }
 
 
 /*         <img id="bildennummer1" src="bilder/delikatess/kaffe.jpg"> */
