@@ -1,3 +1,37 @@
 body {
     background-image: url(bilder/bakgrund/backgrounden100.png)
 }
+
+
+
+.knapparna {
+    position: fixed;       
+    top: 20px;            
+    right: 1px;           
+    z-index: 1000;        
+}
+
+.knapparna button {
+    padding: 10px 20px;   
+    margin: 5px;          
+    font-size: 15px;      
+    cursor: pointer;      
+
+    background-color: transparent; 
+    border: none;         
+    color: #b59c9c;          
+    font-family: 'Times New Roman', Times, serif, sans-serif; 
+ 
+
+    /* transitions? */
+
+}
+
+
+.button:hover {
+    
+}
+
+.button:active {
+
+}
