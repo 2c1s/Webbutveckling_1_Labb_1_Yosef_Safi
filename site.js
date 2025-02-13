@@ -13,6 +13,7 @@ document.getElementById("slumpknapp").addEventListener("click", function() {
 
 
 
+
 window.addEventListener("scroll", function() {
     let bild = document.getElementById("bildennummer1");
     if (window.scrollY > 100) { 
