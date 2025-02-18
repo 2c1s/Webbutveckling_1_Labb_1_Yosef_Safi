@@ -18,8 +18,6 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    opacity: 1; 
-    transition: opacity 1s ease-in-out; 
 }
 
 
@@ -32,8 +30,7 @@
     width: 300px;
     height: 150px;
     margin: 0 auto;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
+
     
     }
 
@@ -47,11 +44,11 @@
     
     .delikatess.show {
         display: block;
-        opacity: 1;
         margin-top: 5%;
         background-color: #7f1a0aa1;
         padding: 4px;
         border-radius: 4px;
+
     }
 
 
@@ -93,11 +90,28 @@
     font-weight: 100;
 }
 
+
+.yeye {
+
+    position: relative;
+    height: 100vh;
+    background-color: ;
+
+}
+ 
+ /* så mycket huvhdvärk kom tillbaka till denna snart, 
+ glöm inte fixa två saker. 
+ en att det ska vara opacity men att alla bilder ska döljas.
+ två att texten inte ska ändra position beroende på ifall bilden syns eller inte.
+ tre fixa öppettider texten.
+ fyra footern ska fixas i alla.css filen */
+
 #open {
 
     font-size: large;
     color: #b3b3b3;
     font-family: 'Times New Roman', Times, serif;
+    position: static;
     margin-top: 200px;
     text-align: left;
 
