@@ -9,6 +9,7 @@
 }
 
 
+
 #mainomoss {
     
     font-size: large;
@@ -22,7 +23,7 @@
 
 #jobbahososs {
 
-    margin-top: 200px;
+    margin-top: 50px;
 
 }
 
@@ -30,7 +31,8 @@
 #section {
 
     text-align: left;
-    margin-top: 100px;
+    margin-top: 50px;
+    padding: 20px;
 
 }
 
@@ -39,5 +41,54 @@
 
     height: 200px;
     width: auto;
+    
 
 }
+
+
+#team {
+
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+
+#personal { 
+
+    list-style-type: none;
+    padding: 0;
+
+}
+
+
+
+
+
+
+
+
+#personal li {
+
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 100px;
+    
+
+}
+
+
+#Robert {
+
+    margin-left: 50px
+
+}
+
+
+#fetcitat {
+
+    text-align: right;
+
+}
+
