@@ -12,7 +12,9 @@ body {
 }
 
 .knapparna button:hover {
-    background-color: #464647;
+
+    color: #7a6363;
+    
 }
 
 
@@ -41,4 +43,20 @@ body {
 
 .button:active {
 
+}
+
+
+
+
+.Footern {
+    background-color: #3e1818;  /* Mörk röd färg som matchar temat */
+    color: #f9f8f8;             /* Ljus text för bra kontrast */
+    text-align: center;         /* Centrerad text */
+    padding: 15px;              /* Padding för att ge utrymme runt texten */
+    font-size: 14px;            /* Textstorlek */
+    font-family: Arial, sans-serif;  /* Enkel, lättläst font */
+    position: relative;         /* Sätter position för footern */
+    bottom: 0;                  /* Sätter footern längst ner på sidan */
+    width: 100%;                /* Gör så att footern täcker hela bredden */
+    box-sizing: border-box;     /* Förhindrar att padding påverkar bredden */
 }

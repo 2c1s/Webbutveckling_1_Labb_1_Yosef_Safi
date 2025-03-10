@@ -11,33 +11,50 @@ document.getElementById("slumpknapp").addEventListener("click", function() {
 });
 
 
-/*
-document.addEventListener("DOMContentLoaded", function() {
-    const clipElement = document.getElementById("clip");
-    console.log(clipElement); 
 
-    if (clipElement) {
-        clipElement.addEventListener("scroll", function () {
-            console.log("du har skorllat");
-            if (window.scrollY > 100) {
-                clipElement.classList.add("scrolled");
-            } else {
-                clipElement.classList.remove("scrolled");
-            }
-        });
-    } else {
-        console.log("Elementet med id 'clip' finns inte i DOM.");
-    }
+
+
+
+// Hämta referenser till viktiga element
+const kundvagnLista = document.getElementById('kundvagnlista');
+const totalPrisEl = document.getElementById('totalpris');
+let totalSumma = 0;
+
+// Hämta alla köpknappar
+const knappar = document.querySelectorAll('.shop');
+
+knappar.forEach(knapp => {
+    knapp.addEventListener('click', () => {
+        // Hämta priset från knappens text
+        const prisText = knapp.textContent.match(/(\d+)kr/);
+        if (prisText) {
+            const pris = parseInt(prisText[1]);
+
+            // Lägg till produkten i listan
+            const produktNamn = knapp.previousElementSibling.alt;
+            const nyProdukt = document.createElement('li');
+            nyProdukt.textContent = `${produktNamn} - ${pris} kr`;
+            kundvagnLista.appendChild(nyProdukt);
+
+            // Uppdatera totalen
+            totalSumma += pris;
+            totalPrisEl.textContent = `Totalt: ${totalSumma} kr`;
+        }
+    });
 });
 
-*/
 
 
+document.addEventListener('DOMContentLoaded', () => {
+    console.log("Scriptet är laddat!");
 
+    const knappLista = document.querySelectorAll('.shop');
+    console.log(knappLista); // Kollar om knapparna hittas
 
-
-console.log("site.js är laddad");
-
-
-
-
+    knappLista.forEach(knapp => {
+        console.log("Knapp hittad:", knapp); // Skriver ut varje knapp
+        knapp.addEventListener('click', () => {
+            console.log("Knapp klickad!");
+        });
+    });
+});
