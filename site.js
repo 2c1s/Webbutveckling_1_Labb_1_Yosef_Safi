@@ -11,21 +11,33 @@ document.getElementById("slumpknapp").addEventListener("click", function() {
 });
 
 
+/*
+document.addEventListener("DOMContentLoaded", function() {
+    const clipElement = document.getElementById("clip");
+    console.log(clipElement); 
 
-
-
-window.addEventListener("scroll", function() {
-    let bild = document.getElementById("bildennummer1");
-    if (window.scrollY > 100) { 
-        bild.classList.add("scrolled");
+    if (clipElement) {
+        clipElement.addEventListener("scroll", function () {
+            console.log("du har skorllat");
+            if (window.scrollY > 100) {
+                clipElement.classList.add("scrolled");
+            } else {
+                clipElement.classList.remove("scrolled");
+            }
+        });
     } else {
-        bild.classList.remove("scrolled");
+        console.log("Elementet med id 'clip' finns inte i DOM.");
     }
 });
 
+*/
 
 
 
-//   <section class="knapparna">
+
+
+console.log("site.js är laddad");
+
+
 
 

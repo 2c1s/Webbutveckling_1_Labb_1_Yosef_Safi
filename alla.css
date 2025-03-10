@@ -11,6 +11,11 @@ body {
     z-index: 1000;        
 }
 
+.knapparna button:hover {
+    background-color: #464647;
+}
+
+
 .knapparna button {
     padding: 10px 20px;   
     margin: 5px;          
@@ -30,6 +35,8 @@ body {
 
 .button:hover {
     
+
+
 }
 
 .button:active {

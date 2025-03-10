@@ -3,102 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Produkter</title>
     <link rel="stylesheet" href="alla.css">
-
+    <link rel="stylesheet" href="produkterstyle.css">¨
 </head>
 <body>
 
-
-
     <header>
         <h2 id="titelprodukt">Här kan du se och förbeställa alla våra goda produkter!</h2>
-
-        <img src="bilder/delikatess/kaffe.jpg" class="bildennummer1">
-
         <section class="knapparna">
-
             <button onclick="window.location.href='omoss.html'">Om oss</button>
             <button onclick="window.location.href='landingpage.html'">Hem</button>
             <button onclick="window.location.href='produkter.html'">Produkter</button>
-            <br>
+        </section>
 
-            </section>
-
-
-            <aside id="kundvagn">
-                <h3>Din kundvagn</h3>
-                <ul id="kundvagnlista"></ul>
-                <p id="totalpris">Totalt: 0 kr</p>
-
-            </aside>
-            
+        <img id="clip" src="bilder/potatis/nya.png" alt="easteregg">
 
 
+        <aside id="kundvagn">
+            <h3>Din kundvagn</h3>
+            <ul id="kundvagnlista"></ul>
+            <p id="totalpris">Totalt: 0 kr</p>
+        </aside>
     </header>
 
     <main id="mainprodukter">
-<br>
-
-<img src="bilder/delikatess/delikatess1.jpg" alt="Wow" class="produkterna">
-<button class="shop">Lägg till i varukorg: 49kr</button>
-
-
-
-<img src="bilder/delikatess/delikatess2.jpg" alt="Nice" class="produkterna">
-<button class="shop">Lägg till i varukorg: 39kr</button>
-
-
-
-
-<img src="bilder/delikatess/delikatess3.jpg" alt="Galet" class="produkterna">
-<button class="shop">Lägg till i varukorg: 19kr</button>
-
-
-
-
-<img src="bilder/delikatess/delikatess4.jpg" alt="Gott" class="produkterna">
-<button class="shop">Lägg till i varukorg: 59kr</button>
-
-
-
-<img src="delikatess5.jpg" alt="Fint" class="produkterna">
-<button class="shop">Lägg till i varukorg: 99kr</button>
-
-
-
-<img src="bilder/delikatess/delikatess6.jpg" alt="Sjukt" class="produkterna">
-<button class="shop">Lägg till i varukorg: 39kr</button>
-
-
-
-<img src="bilder/delikatess/delikatess7.jpg" alt="Suveränt" class="produkterna">
-<button class="shop">Lägg till i varukorg: 29kr</button>
-
-
-
-
-<img src="bilder/delikatess/delikatess8.jpg" alt="Bra" class="produkterna">
-<button class="shop">Lägg till i varukorg: 109kr</button>
-
-
-
-
-<img src="bilder/delikatess/delikatess9.jpg" alt="Bättre" class="produkterna">
-<button class="shop">Lägg till i varukorg: 79kr</button>
-
-
-
-<img src="bilder/delikatess/delikatess10.jpg" alt="Bäst" class="produkterna">
-<button class="shop">Lägg till i varukorg: 99kr</button>
-
-
-<br>
-<p id="obsss">Obs! Alla våra produkter innehåller nötter eller spår av nötter!</p>
+        <div class="produkt-container">
+            <div class="produkt">
+                <img src="bilder/delikatess/delikatess1.jpg" alt="Wow" class="produkterna">
+                <button class="shop">Lägg till i varukorg: 49kr</button>
+            </div>
+            <div class="produkt">
+                <img src="bilder/delikatess/delikatess2.jpg" alt="Nice" class="produkterna">
+                <button class="shop">Lägg till i varukorg: 39kr</button>
+            </div>
+            <div class="produkt">
+                <img src="bilder/delikatess/delikatess3.jpg" alt="Galet" class="produkterna">
+                <button class="shop">Lägg till i varukorg: 19kr</button>
+            </div>
+            <div class="produkt">
+                <img src="bilder/delikatess/delikatess4.jpg" alt="Gott" class="produkterna">
+                <button class="shop">Lägg till i varukorg: 59kr</button>
+            </div>
+            <div class="produkt">
+                <img src="bilder/delikatess/delikatess5.jpg" alt="Fint" class="produkterna">
+                <button class="shop">Lägg till i varukorg: 99kr</button>
+            </div>
+            <div class="produkt">
+                <img src="bilder/delikatess/delikatess6.jpg" alt="Sjukt" class="produkterna">
+                <button class="shop">Lägg till i varukorg: 39kr</button>
+            </div>
+            <div class="produkt">
+                <img src="bilder/delikatess/delikatess7.jpg" alt="Suveränt" class="produkterna">
+                <button class="shop">Lägg till i varukorg: 29kr</button>
+            </div>
+            <div class="produkt">
+                <img src="bilder/delikatess/delikatess8.jpg" alt="Bra" class="produkterna">
+                <button class="shop">Lägg till i varukorg: 109kr</button>
+            </div>
+            <div class="produkt">
+                <img src="bilder/delikatess/delikatess9.jpg" alt="Bättre" class="produkterna">
+                <button class="shop">Lägg till i varukorg: 79kr</button>
+            </div>
+            <div class="produkt">
+                <img src="bilder/delikatess/delikatess10.jpg" alt="Bäst" class="produkterna">
+                <button class="shop">Lägg till i varukorg: 99kr</button>
+            </div>
+        </div>
+        <br>
+        <p id="obsss">Obs! Alla våra produkter innehåller nötter eller spår av nötter!</p>
     </main>
-    
-
 
     <footer class="Footern">Created by Yosef ©</footer>
+
+
+    <script src="site.js"></script>        
 </body>
 </html>

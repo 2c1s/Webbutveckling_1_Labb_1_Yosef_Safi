@@ -96,7 +96,7 @@
 
     position: relative;
     height: 100vh;
-    background-color: ;
+ /*   background-color: ; */
 
 }
  
@@ -113,9 +113,19 @@
     color: #b3b3b3;
     font-family: 'Times New Roman', Times, serif;
     position: static;
-    margin-top: 200px;
-    text-align: left;
+    margin-top: 180px;
 
+
+}
+
+
+
+#opentimes {
+
+    white-space: pre;
+    text-align: left;
+    padding-left: 400px;
+    margin-top: 50px;
 
 }
 

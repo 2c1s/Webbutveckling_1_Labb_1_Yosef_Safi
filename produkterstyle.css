@@ -1,0 +1,108 @@
+#titelprodukt {
+
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 1000;
+    text-align: center;
+    color: rgb(249, 248, 248);
+    margin-top: auto;
+
+}
+
+
+#clip {
+
+    transition: all 0.3s ease;  
+    height: 50px;
+    position: relative;
+    top: 500px;
+    left: 700px;
+
+}
+
+#clip.scrolled {
+
+    opacity: 0.5;  /* Gör bilden halvtransparent när användaren scrollar */
+    transform: scale(0.9);  /* Gör bilden lite mindre när användaren scrollar */
+    
+}
+
+
+
+
+.knapparna {
+    margin-top: 20px;
+}
+
+#kundvagn {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 200px;
+    padding: 10px;
+    background-color: #691d1d;
+    color: rgb(253, 253, 253);
+    border-radius: 5px;
+    position: fixed;
+    right: 10px;
+    top: 100px;
+    width: 250px;
+}
+
+#kundvagn h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+#kundvagn ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#kundvagn ul li {
+    font-size: 16px;
+}
+
+#mainprodukter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 20px;
+}
+
+.produkt {
+    background-color: #3e1818d4;
+    margin: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.produkterna {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.shop {
+    background-color: #38944d;
+    color: rgb(231, 221, 221);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+
+.shop:hover {
+    background-color: #18682a;
+}
+
+
+#obsss {
+    text-align: center;
+    font-size: 16px;
+    color: #b3b3b3;
+}
