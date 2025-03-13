@@ -99,18 +99,32 @@
 }
 
 
+
+
+/*
+
 #kanske {
 
 
         position: absolute;
-        width: 300px; /* Gör bilden mindre (kan justeras efter behov) */
-        height: auto; /* Behåll proportionerna */
-        top: 20px; /* Justera vertikal position */
-        left: 10px; /* Flytta bilden mer till vänster */
-        transform: translateX(0); /* Finjustera om det behövs */
-    
+        width: auto; 
+        height: 150px; 
+        top: 300px; 
+        left: 500px; 
     
 
 }
 
 
+#kanske1 {
+
+    position: absolute;
+    width: auto; 
+    height: 150px; 
+    top: 200px; 
+    left: 800px; 
+
+}
+
+
+*/

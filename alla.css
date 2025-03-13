@@ -35,28 +35,19 @@ body {
 }
 
 
-.button:hover {
-    
-
-
-}
-
-.button:active {
-
-}
 
 
 
 
 .Footern {
-    background-color: #3e1818;  /* Mörk röd färg som matchar temat */
-    color: #f9f8f8;             /* Ljus text för bra kontrast */
-    text-align: center;         /* Centrerad text */
-    padding: 15px;              /* Padding för att ge utrymme runt texten */
-    font-size: 14px;            /* Textstorlek */
-    font-family: Arial, sans-serif;  /* Enkel, lättläst font */
-    position: relative;         /* Sätter position för footern */
-    bottom: 0;                  /* Sätter footern längst ner på sidan */
-    width: 100%;                /* Gör så att footern täcker hela bredden */
-    box-sizing: border-box;     /* Förhindrar att padding påverkar bredden */
+    background-color: #3e1818;  
+    color: #f9f8f8;             
+    text-align: center;         
+    padding: 15px;              
+    font-size: 14px;            
+    font-family: Arial, sans-serif;  
+    position: relative;         
+    bottom: 0;                 
+    width: 100%;                
+    box-sizing: border-box;     
 }
